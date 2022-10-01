@@ -1,0 +1,26 @@
+{
+  "scripts": {
+    "start": "SET PORT=3001 && SET MYKEY=helloworld && nodemon src/index.ts",
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.2",
+    "express": "^4.18.1",
+    "path": "^0.12.7",
+    "prisma": "^4.3.1",
+    "react": "^18.2.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.12",
+    "@types/express": "^4.17.14"
+  },
+  "name": "backend",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}

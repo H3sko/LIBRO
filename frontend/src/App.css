@@ -1,0 +1,72 @@
+:root {
+    --white: blanchedalmond;
+}
+
+body {
+    width: 100vw;
+    min-height: 100vh;
+    overflow-x: hidden;
+    background-color: var(--white);
+    display: flex;
+    flex-direction: column;
+    background-image: url("bg.jpeg");
+}
+
+header {
+    padding: 4vh 0 0 0;
+    min-height: 15vh;
+    max-height: 15vh;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: transparent;
+
+}
+
+main {
+    padding: 10vh 0 0 0 ;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer {
+    min-height: 10vh;
+    max-height: 10vh;
+    background-color: gray;
+    flex-direction: row;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.infoText {
+    width: 60vh;
+    font-size: 3.5vh;
+
+}
+
+.content {
+    text-align: left;
+    position: relative;
+    font-family: "Helvetica Neue";
+}
+
+.App-logo {
+    max-height: 60vh;
+}
+
+button {
+    border: none;
+    color: white;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    background-color: transparent;
+}
